@@ -9,7 +9,7 @@ Creating a custom console command in Magento 2 involves the following steps:
 ![folders-structure-for-magento-2-module](https://github.com/nrauf90/magento/blob/main/images/folder-structure.png?raw=true)
 <br/>
 - Create a module.xml file in the “etc” folder and add the following code:<br/>
-![module xml file](https://github.com/nrauf90/magento/blob/main/images/module.xml.png?raw=true)
+![module-xm-file](https://github.com/nrauf90/magento/blob/main/images/module.xml.png?raw=true)
 <br/>
 - And create a registration.php file in the same folder to register your module:<br/>
 ![registration php file](https://github.com/nrauf90/magento/blob/main/images/registration.php.png?raw=true)
