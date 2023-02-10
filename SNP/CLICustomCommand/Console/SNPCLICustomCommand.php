@@ -28,7 +28,7 @@ class SNPCLICustomCommand extends Command
                 'Name'
             )
         ];
-        $this->setName('snp:create:module');
+        $this->setName('snp:welcome');
         $this->setDescription('Create custom new module command');
         $this->setDefinition($options);
     }
@@ -43,10 +43,9 @@ class SNPCLICustomCommand extends Command
     {
         $name = $input->getOption(self::NAME);
         if ($name) {
-
-            $output->writeln("Welcome ".$name);
+            $output->writeln("Welcome " . $name);
         } else {
-            $output->writeln("Module name is required!");
+            $output->writeln("Welcome!");
         }
 
     }
